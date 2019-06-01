@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>CSS Variables with JS</title>
+</head>
+<body>
+    <img class="background-image" src="./assets/bg.jpg"></img>
+    <h2>Update CSS Variables with <span class="h1">JS</span></h2>
+    <div class="controls">
+        <label for="spacing">Spacing</label>
+        <input type="range" name="spacing" min="0" max="200" value="0" data-sizing="px">
+
+        <label for="rotation">Rotation</label>
+        <input type="range" name="rotation" min="0" max="360" value="0" data-sizing="deg">
+
+        <label for="minimizer">Minimizer</label>
+        <input type="range" name="minimizer" min="0" max="100" value="100">
+
+        <label for="blur">Blur:</label>
+        <input type="range" name="blur" min="0" max="25" value="0" data-sizing="px">
+
+        <label for="blur">Base Color:</label>
+        <input type="color" name="base" value="#f0f0f0">
+    </div>
+    <div class="img-container">
+        <img src="assets/guitarrist.jpg" alt="blues-guitarrist">
+    </div>
+    <script src="./js/scripts.js"></script>
+</body>
+</html>
